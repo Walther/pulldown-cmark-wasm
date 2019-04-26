@@ -1,0 +1,12 @@
+[package]
+name = "pulldown-cmark-wasm"
+version = "0.1.0"
+authors = ["Veeti Haapsamo <veeti.haapsamo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+wasm-bindgen = "0.2.42"
+pulldown-cmark = "0.5.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
